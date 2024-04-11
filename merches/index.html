@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="New Project 2 [D6E9441].png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><span style="color: #0F969C;">E</span>mporium Expansion</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Feedback</a></li>
+                <li><a href="">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="to">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+    
+                    <div class="slide first">
+                        <img src="gojo.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="solo.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="ita.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="suku.png" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+    
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+            <p>
+                <span style="font-size: 30px;font-weight: bold;">Welcome to <span style="color: #0F969C;">Emporium Expansion</span> where fashion meets fun!</span> <br>
+                
+                <span style="font-size: 18px;">At E3, we're all about making a statement without saying a word. <br> From head-turning outfits to accessories that spark joy, we've got everything you need to unleash your inner fashionista.
+                
+                Think of us as your <span style="color: aqua;">stylish best friend who always has the perfect outfit up their sleeve (literally).</span><br>
+                So, grab your coffee, put on your favorite playlist, and let's embark on a shopping adventure together.</span></p>
+        </section>
+        <h1 id="texte">CONTACT <span style="color: #0F969C;">@irreplaceable_mindst</span> FOR A SPECIAL DISCOUNT!</h1><br>
+        <aside>
+            <ul>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">EXECLUSIVE</a></li>
+            </ul>
+        </aside>
+        <section>
+            <iframe src="cards.html" frameborder="0"></iframe>
+        </section>
+    
+    </main>
+    <footer>a</footer>
+    <script>
+        counter = 1
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++
+            if (counter>4) {
+                counter = 1
+
+            }
+        }, 5000)
+    </script>
+</body>
+</html>
